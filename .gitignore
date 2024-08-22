@@ -1,0 +1,30 @@
+# Maven
+target/
+
+# IDE
+.vscode/
+.idea/
+
+# Compiled files
+*.class
+
+# Build output
+build/
+out/
+
+# Dependency directories
+lib/
+libs/
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
