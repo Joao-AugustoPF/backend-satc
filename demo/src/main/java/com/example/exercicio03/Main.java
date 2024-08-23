@@ -52,7 +52,9 @@ public class Main {
 
         // Desatracar os barcos dos portos
         for (Barco barco : barcos) {
+            System.out.println("Desatracando barco " + barco.nome + " do porto pequeno...");
             portoPequeno.desatracarBarco(barco);
+            System.out.println("Desatracando barco " + barco.nome + " do porto grande...");
             portoGrande.desatracarBarco(barco);
         }
     }

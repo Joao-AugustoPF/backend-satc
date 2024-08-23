@@ -1,14 +1,21 @@
 package com.example.exercicio03;
 
 public class PortoPequeno extends BasePorto {
-    
+
     @Override
     public void atracarBarco(Barco barco) {
         if(barco.tamanho <= 10) {
-            barcosAtracados.add(barco);
             System.out.println("Barco " + barco.nome + " atracado com sucesso.\n");
+
+            if(barcosAtracados.contains(barco)) {
+                System.out.println("O barco " + barco.nome + " já está atracado.\n");
+                return;
+            }
+
+            barcosAtracados.add(barco);
+            System.out.println("O barco " + barco.nome + " foi atracado com sucesso.\n");
         } else {
-            System.out.println("O tamanho do barco é maior que o suportado.\n");
+            System.out.println("O tamanho do barco " + barco.nome + " é maior que o suportado.\n");
         }
     }
     
