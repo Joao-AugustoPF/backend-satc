@@ -1,0 +1,3 @@
+Daniel Dalalana não abordou especificamente métodos técnicos de segurança, mas enfatizou a importância de desenvolver com consciência, independentemente do porte da aplicação ou da empresa.
+
+Além disso, ele destacou a relevância de prestar serviços ou consultorias de segurança mantendo uma proximidade com o cliente, adotando a postura semelhante à de um "médico" que diagnostica e trata os problemas ou "doenças" na aplicação do cliente.
